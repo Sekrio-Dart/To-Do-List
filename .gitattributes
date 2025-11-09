@@ -1,0 +1,20 @@
+# Treat Dart code as Dart
+*.dart linguist-language=Dart
+pubspec.yaml linguist-language=Dart
+lib/** linguist-language=Dart
+
+# Ignore build and generated files
+build/** linguist-vendored
+.android/** linguist-vendored
+.ios/** linguist-vendored
+*.lock linguist-vendored
+*.iml linguist-vendored
+.idea/** linguist-vendored
+.vscode/** linguist-vendored
+
+# Ignore any C/C++/CMake files
+*.c linguist-vendored
+*.cpp linguist-vendored
+*.h linguist-vendored
+CMakeLists.txt linguist-vendored
+*.cmake linguist-vendored
